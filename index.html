@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SANJAY - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Sanjay Selvamani</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="Sanjay resume.pdf" class="nav-link">Resume</a>
+                <a href="#internships" class="nav-link">Internships</a>
+                <a href="#achievements" class="nav-link">Achievements</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm <span class="highlight"><b>Sanjay S</b>
+                    </span></h1>
+                <p class="hero-subtitle">Full Stack Developer</p>
+                <p class="hero-description">I am a passionate engineering student with a strong interest in Artificial
+                    Intelligence, Machine Learning, and Agri-Tech solutions. I enjoy building real-world projects that
+                    solve practical problems. My focus is on applying AI to improve efficiency, sustainability, and
+                    decision-making, especially in the agriculture domain.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="https://www.linkedin.com/in/s-sanjay--" class="btn btn-linkedin" target="_blank">
+                        <i class="fab fa-linkedin"></i> LinkedIn Profile
+                    </a>
+                    <a href="https://leetcode.com/u/Sanjay1516/" class="btn btn-leetcode" target="_blank">
+                        <i class="fas fa-code"></i> LeetCode Profile
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-image">
+                    <img src="photo.JPG" alt="Sanjay S - Profile Photo" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate 2nd year IT student at SNS College of Technology with a strong foundation in
+                        programming and web development. I specialize in full stack development and love creating
+                        innovative solutions to real-world problems.</p>
+                    <p>Currently Python, Java, and C programming languages while building modern web
+                        applications. I'm always eager to learn new technologies and contribute to exciting projects.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>3+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h3>2</h3>
+                            <p>Years Learning</p>
+                        </div>
+                        <div class="stat">
+                            <h3>3</h3>
+                            <p>Core Languages</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!- - Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title" style="color: aliceblue;">Skills & Technologies</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Programming Languages</h3>
+                        <div class="skill-items">
+                            <span class="skill-item">Python</span>
+                            <span class="skill-item">Java</span>
+                            <span class="skill-item">C</span>
+                            <span class="skill-item">JavaScript</span>
+                            <span class="skill-item">HTML</span>
+                            <span class="skill-item">CSS</span>
+                            <span class="skill-item">DSA</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Web Development</h3>
+                        <div class="skill-items">
+                            <span class="skill-item">React</span>
+                            <span class="skill-item">Node.js</span>
+                            <span class="skill-item">Express</span>
+                            <span class="skill-item">MongoDB</span>
+                            <span class="skill-item">MySQL</span>
+
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Tools & Technologies</h3>
+                        <div class="skill-items">
+                            <span class="skill-item">Git</span>
+                            <span class="skill-item">VS Code</span>
+                            <span class="skill-item">Flutterflow</span>
+                            <span class="skill-item">Figma</span>
+                            <span class="skill-item">Firebase</span>
+                            <span class="skill-item">Linux</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume" class="resume">
+            <div class="container">
+                <h2 class="section-title">Resume</h2>
+                <div class="resume-content">
+                    <div class="resume-download">
+                        <p>Download my complete resume to learn more about my experience and qualifications.</p>
+                        <a href="Sanjay resume.pdf"
+                            class="btn btn-primary" id="download-resume">
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                    </div>
+
+                    <div class="resume-sections">
+
+
+                        <!-- Education Section -->
+                        <div class="resume-section">
+                            <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <div class="timeline-date">2024 - 2028</div>
+                                    <div class="timeline-content">
+                                        <h4>Bachelor of Technology in Information Technology</h4>
+                                        <p class="company">SNS College of Technology</p>
+                                        <ul>
+                                            <li>Currently in 2nd Year - IT Department</li>
+                                            <li>Relevant Coursework: Data Structures And Algorithms, Web Development,
+                                                Database Management</li>
+                                            <li>Programming Languages: Python, Java, C</li>
+                                            <li>Active participant in coding clubs and technical events</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Certifications Section -->
+                        <div class="resume-section">
+                            <h3><i class="fas fa-certificate"></i> Certifications & Courses</h3>
+                            <div class="certifications-grid">
+                                <div class="cert-item">
+                                    <i class="fas fa-project-diagram"></i>
+                                    <h4>Data Structures and Algorithms</h4>
+                                    <p>NPTEL - IIT</p>
+                                    <span class="cert-date">2025</span>
+                                </div>
+                                <div class="cert-item">
+                                    <i class="fab fa-python"></i>
+                                    <h4>Python Programming</h4>
+
+                                    <p>Coursera - University of Michigan</p>
+                                    <span class="cert-date">2024</span>
+                                </div>
+                                <div class="cert-item">
+                                    <i class="fab fa-java"></i>
+                                    <h4>Java Programming</h4>
+                                    <h4>Full Stack development</h4>
+                                    <h4>DSA IN Python</h4>
+
+                                    <p>Infosys springboard</p>
+
+                                    <span class="cert-date">2025</span>
+                                </div>
+                                <div class="cert-item">
+                                    <i class="fas fa-code"></i>
+                                    <h4>Oracle Cloud Infrastructure 2025 Certified Al Foundations Associate</h4>
+                                    <p>Oracle</p>
+                                    <span class="cert-date">2024</span>
+                                </div>
+                                <div class="cert-item">
+                                    <i class="fas fa-database"></i>
+                                    <h4>Database Management</h4>
+                                    <p>Academic Coursework</p>
+                                    <span class="cert-date">2026</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Internships Section -->
+        <section id="internships" class="internships">
+            <div class="container">
+                <h2 class="section-title">Internships & Experience</h2>
+                <div class="internships-grid">
+                    <div class="internship-card">
+                        <div class="internship-header">
+                            <div class="company-logo">
+                                <i class="fas fa-building"></i>
+                            </div>
+                            <div class="internship-info">
+                                <h3>Web Development Intern</h3>
+                                <p class="company-name">Jadayu Software Technology</p>
+                                <p class="internship-duration">June 2025 - July 2025</p>
+                                <p class="internship-location">Thanjavur, Tamil Nadu</p>
+                            </div>
+                        </div>
+                        <div class="internship-content">
+                            <h4>Key Responsibilities:</h4>
+                            <ul>
+                                <li>Developed responsive web applications using HTML, CSS, and JavaScript</li>
+                                <li>Participated in code reviews and learned industry best practices</li>
+                                <li>Created user-friendly interfaces and improved website performance</li>
+                            </ul>
+                            <h4>Technologies Used:</h4>
+                            <div class="tech-stack">
+
+                                <span class="tech-item">HTML</span>
+                                <span class="tech-item">CSS</span>
+                                <span class="tech-item">JavaScript</span>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="internship-card">
+                        <div class="internship-header">
+                            <div class="company-logo">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <div class="internship-info">
+                                <h3>Full Stack Development Intern</h3>
+                                <p class="company-name">Cognifyz Technologies</p>
+                                <p class="internship-duration">December 2025 (1 months)</p>
+                                <p class="internship-location">Remote</p>
+                            </div>
+                        </div>
+                        <div class="internship-content">
+                            <h4>Key Responsibilities:</h4>
+                            <ul>
+                                <li>Learned Java programming fundamentals and object-oriented concepts</li>
+                                <li>Developed console-based applications and solved algorithmic problems</li>
+                                <li>Participated in virtual team meetings and collaborative coding sessions</li>
+                                <li>Completed assigned projects and submitted weekly progress reports</li>
+                                <li>Gained exposure to software development lifecycle (SDLC)</li>
+                            </ul>
+                            <h4>Technologies Used:</h4>
+                            <div class="tech-stack">
+                                <span class="tech-item">Java</span>
+
+                                <span class="tech-item">GitHub</span>
+                                <span class="tech-item">MongoDB</span>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Internship Statistics -->
+                <div class="internship-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">2</div>
+                        <div class="stat-label">Internships Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">2</div>
+                        <div class="stat-label">Months of Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">4+</div>
+                        <div class="stat-label">Projects Delivered</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Completion Rate</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="achievements">
+            <div class="container">
+                <h2 class="section-title">Achievements</h2>
+                <div class="achievements-grid">
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <h3>NPTEL Data Structures & Algorithms</h3>
+                        <p>Successfully completed NPTEL course on Data Structures and Algorithms from IIT with excellent
+                            performance and certification.</p>
+                        <span class="achievement-date">2025</span>
+                    </div>
+
+
+
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>JEE Main 2024 – Qualified</h3>
+                        <p>Secured 75.15 percentile in JEE Main 2024. Built a solid problem-solving mindset and exam-oriented discipline through national-level competitive preparation</p>
+                        <span class="achievement-date">2024</span>
+                    </div>
+
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Technical Team Lead</h3>
+                        <p>Led a team of 4 students in developing a web-based the college
+                            technical symposium.</p>
+                        <span class="achievement-date">2025</span>
+                    </div>
+
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Dance Club Active Member</h3>
+                        <p>Active member of college Dance club.</p>
+                        <span class="achievement-date">2024-2026</span>
+                    </div>
+
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Academic Excellence</h3>
+                        <p>Maintained consistent academic performance with high grades in core IT subjects including
+                            Programming, Database Management, and Web Development.</p>
+                        <span class="achievement-date">2024-2026</span>
+                    </div>
+                </div>
+
+                <!-- Statistics Section -->
+                <div class="achievement-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">2+</div>
+                        <div class="stat-label">Major Projects</div>
+                    </div>
+                    
+                    <div class="stat-item">
+                        <div class="stat-number">3</div>
+                        <div class="stat-label">Programming Languages</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">2</div>
+                        <div class="stat-label">Years of Study</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Flood Detection System</h3>
+                            <p>IoT-based early-warning system with real-time water-level monitoring and automatic alert
+                                generation to improve safety.</p>
+                            <div class="project-tech">
+                                <span>IoT & Embedded</span>
+                                <span>Cloud</span>
+                                <span>Real-time Data Streams</span>
+
+
+                            </div>
+                            <div class="project-links">
+                                <a href="https://www.linkedin.com/posts/s-sanjay--_kpric-hackathon-innovation-activity-7390086964542324736-23IM?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwMopkBFYCMjlYT1YdoXTvnYo0DUmI68rg"
+                                    class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                <a href="https://github.com/Sanjay151606/flood-detecting-system" class="project-link"><i
+                                        class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>RED BUS</h3>
+                            <p>Developed a “Red Bus” app using Flutter Flow with an advanced live tracking system and real-time location 
+updates for local buses. Integrated Google Maps API for live bus tracking, arrival alerts, and dynamic route 
+selection with date and seat availability. Utilized Firebase for seamless real-time data sync, improving seat 
+tracking accuracy and overall user experience.</p>
+                            <div class="project-tech">
+                                <span>Flutterflow</span>
+                                <span>Figma</span>
+                                <span>Firebase</span>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>FARMORA</h3>
+                            <p>Developed a digital platform connecting farmers with global buyers to enable transparent, secure, and profitable agricultural trade. The system bridges the gap between producers and international markets using advanced technologies.</p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>MongoDB</span>
+                                <span>AI</span>
+                                <span>Blockchain</span>
+                                <span>React.js</span>
+                                <span>Node.js</span>
+                                <span>Pandas</span>
+                                <span>Numpy</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Let's connect and collaborate!</h3>
+                        <p>I'm always eager to learn from new opportunities and exciting projects. Feel free to reach
+                            out if you'd like to collaborate or discuss technology!</p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>ssanjay41571@gmail.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+91 8870741800</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>SNS College of Technology, Coimbatore</span>
+                            </div>
+                        </div>
+                        
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" placeholder="Your Message" rows="5"
+                                    required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; 2028 Sanjay S. All rights reserved.</p>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
